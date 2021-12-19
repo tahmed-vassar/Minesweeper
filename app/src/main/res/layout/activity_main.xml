@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/smile"
+        android:scaleType="fitXY"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.ait.minesweeper.MinesweeperView
+            android:id="@+id/MinesweeperView"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/tgbtnIsFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:textOff="@string/flag_mode"
+        android:textOn="@string/try_mode" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="flag_mode">Flag mode</string>
+    <string name="try_mode">Try mode</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="lost">Sorry, you lost!!</string>
+    <string name="won">Congratulations, you won!!</string>
+    <string name="instructions">Note: X\'s are mines and circles are flags</string>
+</resources>
